@@ -33,8 +33,8 @@ zuul:
       path: /api/combat/**
       url: http://localhost:8095/
     maneuver-dynamic:
-      path: /api/movement/**
-      url: http://localhost:8095/
-    maneuver-static:
-      path: /api/movement/**
+      path: /api/manouver-static/**
       url: http://localhost:8096/
+    maneuver-static:
+      path: /api/manouver-dynamic/**
+      url: http://localhost:8097/

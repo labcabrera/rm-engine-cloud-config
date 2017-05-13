@@ -1,5 +1,5 @@
 configuration:
-  projectName: rm-engine-ms-common
+  projectName: rm-engine-ms-manouver-static
 
 spring:
   data:
@@ -7,7 +7,7 @@ spring:
       uri: mongodb://localhost:27017/rmengine
 
 server:
-  port: 8090
+  port: 8093
 
 management:
   context-path: /actuator
