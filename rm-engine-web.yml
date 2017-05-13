@@ -24,7 +24,7 @@ zuul:
   routes:
     common:
       path: /api/common/**
-      serviceId: RM-ENGINE-MS-COMMON
+      serviceId: rm-engine-ms-common
       stripPrefix: false
     campaign:
       path: /api/campaign/**
