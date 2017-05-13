@@ -25,7 +25,6 @@ zuul:
     common:
       path: /api/common/**
       serviceId: rm-engine-ms-common
-      stripPrefix: false
     campaign:
       path: /api/campaign/**
       url: http://localhost:8091/
@@ -44,3 +43,9 @@ zuul:
     maneuver-static:
       path: /api/manouver-dynamic/**
       url: http://localhost:8097/
+
+ribbon:
+  eureka:
+    enabled: true
+    ReadTimeout: 20000
+    ConnectTimeout: 20000
