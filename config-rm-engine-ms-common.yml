@@ -1,0 +1,17 @@
+configuration:
+  projectName: rm-engine-web
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/rmengine
+
+server:
+  port: 8090
+
+management:
+  context-path: /actuator
+  security.enabled: false
+
+logging:
+  level.org: INFO
