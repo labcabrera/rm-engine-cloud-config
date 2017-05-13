@@ -1,0 +1,12 @@
+configuration:
+  projectName: rm-engine-eureka
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+server:
+  port: 8070
