@@ -50,8 +50,11 @@ zuul:
       path: /api/manouver-dynamic/**
       url: http://localhost:8097/
 
-#ribbon:
-#  eureka:
-#   enabled: true
-#    ReadTimeout: 20000
-#    ConnectTimeout: 20000
+ribbon:
+  eureka:
+   enabled: true
+    ReadTimeout: 20000
+    ConnectTimeout: 20000
+
+logging:
+  level.org: DEBUG
