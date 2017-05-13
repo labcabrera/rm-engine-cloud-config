@@ -29,8 +29,9 @@ zuul:
   routes:
     common:
       path: /api/common/**
-      serviceId: rm-engine-ms-common
-      stripPrefix: false
+      http://localhost:8090/
+      #serviceId: rm-engine-ms-common
+      #stripPrefix: false
     campaign:
       path: /api/campaign/**
       url: http://localhost:8091/
@@ -56,5 +57,5 @@ ribbon:
     ReadTimeout: 20000
     ConnectTimeout: 20000
 
-logging:
-  level.org: DEBUG
+#logging:
+#  level.org: DEBUG
