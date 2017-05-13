@@ -2,6 +2,8 @@ configuration:
   projectName: rm-engine-ms-common
 
 spring:
+  application:
+    name: rm-engine-ms-common
   data:
     mongodb:
       uri: mongodb://localhost:27017/rmengine
