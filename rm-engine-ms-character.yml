@@ -3,7 +3,7 @@ configuration:
 
 spring:
   application:
-    name: rm-engine-ms-common
+    name: rm-engine-ms-character
   data:
     mongodb:
       uri: mongodb://localhost:27017/rmengine
