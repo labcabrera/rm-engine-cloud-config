@@ -1,0 +1,3 @@
+= Rolemaster engine cloud configuration
+
+This configuration is used by https://github.com/labcabrera/rm-engine
