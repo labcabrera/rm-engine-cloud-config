@@ -24,14 +24,13 @@ zuul:
   routes:
     common:
       path: /api/common/**
-      #serviceId: rm-engine-ms-common
-      url: http://localhost:8090/
+      serviceId: rm-engine-ms-common
     campaign:
       path: /api/campaign/**
       url: http://localhost:8091/
     character:
       path: /api/character/**
-      url: http://localhost:8092/
+      serviceId: rm-engine-ms-character
     creation:
       path: /api/creation/**
       url: http://localhost:8093/

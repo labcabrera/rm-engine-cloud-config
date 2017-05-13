@@ -8,6 +8,11 @@ management:
   context-path: /actuator
   security.enabled: false
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
 logging:
   level.org: INFO
 
