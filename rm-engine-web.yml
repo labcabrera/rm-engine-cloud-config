@@ -15,11 +15,17 @@ spring:
   thymeleaf:
     cache: false
 
+client:
+  registerWithEureka: false
+  serviceUrl:
+    defaultZone: http://localhost:8070/eureka/
+
 zuul:
   routes:
     common:
       path: /api/common/**
-      url: http://localhost:8090/
+      serviceId: rm-engine-ms-common
+      stripPrefix: false
     campaign:
       path: /api/campaign/**
       url: http://localhost:8091/
