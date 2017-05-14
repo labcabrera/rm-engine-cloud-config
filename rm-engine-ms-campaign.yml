@@ -5,7 +5,7 @@ server:
   port: 8091
 
 management:
-  context-path: /actuator
+  context-path: /admin
   security.enabled: false
 
 logging:

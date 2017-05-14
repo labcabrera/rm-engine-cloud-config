@@ -17,7 +17,7 @@ eureka:
       defaultZone: http://localhost:8070/eureka/
 
 management:
-  context-path: /actuator
+  context-path: /admin
   security:
     enabled: false
 
