@@ -5,12 +5,12 @@ eureka:
   instance:
     hostname: localhost
   server:
-    eviction-interval-timer-in-ms: 2000
+    eviction-interval-timer-in-ms: 10000
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:8070/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 server:
   port: 8070
